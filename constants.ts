@@ -1,0 +1,116 @@
+import { ProductData, User } from './types';
+
+export const MOCK_USERS: User[] = [
+  { id: 'user-000', username: 'admin', password: 'admin_password', role: 'admin' },
+  { id: 'user-001', username: 'qcmanager', password: 'qcmanager', role: 'staff' },
+  { id: 'user-002', username: 'scmanager', password: 'scmanager', role: 'staff' },
+  { id: 'user-003', username: 'line_supervisor', password: 'password456', role: 'staff' },
+];
+
+export const MASTER_PRODUCT_DATABASE: ProductData[] = [
+  {
+    id: 'prod-001',
+    batchNumberFormat: 'HH:MM NNS11',
+    barcode: '8901725132866',
+    productName: 'Dark Fantasy Choco Fills',
+    productionDate: '2025-09-23',
+  },
+  {
+    id: 'prod-002',
+    batchNumberFormat: 'HH:MM NNS11',
+    barcode: '0000000000001',
+    productName: 'Sunfeast Bounce',
+    productionDate: '2025-10-25',
+  },
+  {
+    id: 'prod-003',
+    batchNumberFormat: 'HH:MM NNS11',
+    barcode: '0000000000002',
+    productName: "Sunfeast Mom's Magic",
+    productionDate: '2025-10-24',
+  },
+  {
+    id: 'prod-004',
+    batchNumberFormat: 'HH:MM NNS11',
+    barcode: '0000000000003',
+    productName: 'Dark Fantasy',
+    productionDate: '2025-10-24',
+  },
+  {
+    id: 'prod-005',
+    batchNumberFormat: 'HH:MM NNS11',
+    barcode: '0000000000004',
+    productName: 'Sunfeast Bounce Blue',
+    productionDate: '2025-10-24',
+  },
+  {
+    id: 'prod-006',
+    batchNumberFormat: 'HH:MM NNS11',
+    barcode: '8909081003857',
+    productName: 'Sunfeast Marie Light',
+    productionDate: '2025-09-28',
+  },
+  {
+    id: 'prod-007',
+    batchNumberFormat: 'HH:MM NNS11',
+    barcode: '0000000000005',
+    productName: 'Sunfeast Bourbon Bliss',
+    productionDate: '2025-09-23',
+  },
+  {
+    id: 'prod-008',
+    batchNumberFormat: 'HH:MM NNS11',
+    barcode: '8901725132866',
+    productName: 'Dark Fantasy Choco Fills',
+    productionDate: '2025-09-28',
+  },
+  {
+    id: 'prod-009',
+    batchNumberFormat: 'HH:MM NNS11',
+    barcode: '0000000000006',
+    productName: 'Sunfeast Bounce Blue',
+    productionDate: '2025-09-23',
+  },
+  {
+    id: 'prod-010',
+    batchNumberFormat: 'HH:MM NNS11',
+    barcode: '8909081000867',
+    productName: 'Right Shift',
+    productionDate: '2025-09-23',
+  },
+  {
+    id: 'prod-011',
+    batchNumberFormat: 'HH:MM NNS11',
+    barcode: '8901725010805',
+    productName: 'Tasty Millers',
+    productionDate: '2024-12-04',
+  },
+  {
+    id: 'prod-012',
+    batchNumberFormat: 'HH:MM NNS11',
+    barcode: '8909081011368',
+    productName: 'Right Shift Jaggery Oats Cookies',
+    productionDate: '2025-09-27',
+  },
+  {
+    id: 'prod-013',
+    batchNumberFormat: 'HH:MM NNS11',
+    barcode: '8909081003929',
+    productName: "Sunfeast Mom's Magic Strawberry",
+    productionDate: '2024-10-10',
+  },
+  {
+    id: 'prod-014',
+    batchNumberFormat: 'NNNN S11',
+    barcode: '8901725132877',
+    productName: 'Sunfeast Pink Crème Biscuits',
+    productionDate: '2025-10-24',
+  },
+  {
+    id: 'prod-015',
+    batchNumberFormat: 'NNNN S11',
+    barcode: '8909081003851',
+    productName: 'Sunfeast Dark Fantasy',
+    productionDate: '2025-09-28',
+  },
+];
